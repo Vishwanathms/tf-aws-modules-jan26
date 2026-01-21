@@ -29,3 +29,7 @@ variable "region_ami_map" {
     "us-east-1" = "ami-12345"
   }
 }
+
+variable "web_sg" {
+  type = list
+}
